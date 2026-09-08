@@ -1,0 +1,113 @@
+.dark {
+    --backgroundCol: hsl(0, 0%, 0%);
+    --cardCol: linear-gradient(180deg, hsl(0, 2%, 8%), hsl(0, 0%, 4%));
+    --buttonCol: hsl(0, 0%, 95%);
+    --buttonHov: hsl(0, 0%, 80%);
+    --textColTitle: hsl(0, 0%, 95%);
+    --textColAccent: hsl(0, 0%, 80%);
+    --borderCol: hsla(0, 0%, 95%, 30%);
+    --text: "Dark Theme"
+}
+
+.light {
+    --backgroundCol: hsl(0, 0%, 80%);
+    --cardCol: linear-gradient(180deg, hsl(0, 2%, 92%), hsl(0, 0%, 96%));
+    --buttonCol: hsl(0, 0%, 100%);
+    --buttonHov: hsl(0, 0%, 75%);
+    --textColTitle: hsl(0, 0%, 5%);
+    --textColAccent: hsl(0, 0%, 20%);
+    --borderCol: hsla(0, 0%, 5%, 0%);
+    --text: "Light Theme"
+}
+.crimson {
+    --backgroundCol: hsl(0, 100%, 9%);
+    --cardCol: linear-gradient(180deg, hsl(0, 100%, 8%), hsl(0, 100%, 13%));
+    --buttonCol: hsl(0, 0%, 95%);
+    --buttonHov: hsl(0, 0%, 80%);
+    --textColTitle: hsl(0, 0%, 95%);
+    --textColAccent: hsl(0, 0%, 80%);
+    --borderCol: hsla(0, 0%, 95%, 30%);
+    --text: "Crimson Theme"
+}
+
+.night {
+    --backgroundCol: hsl(261, 100%, 9%);
+    --cardCol: linear-gradient(180deg, hsl(261, 100%, 8%), hsl(261, 100%, 13%));
+    --buttonCol: hsl(0, 0%, 95%);
+    --buttonHov: hsl(0, 0%, 80%);
+    --textColTitle: hsl(0, 100%, 95%);
+    --textColAccent: hsl(0, 0%, 80%);
+    --borderCol: hsla(0, 0%, 95%, 30%);
+    --buttonTextCol: hsla(0,0%,5%);
+    --text: "Night Theme"
+}
+
+.day {
+    --backgroundCol: hsl(202, 100%, 34%);
+    --cardCol: linear-gradient(180deg, hsl(202, 100%, 75%), hsl(202, 100%,57%));
+    --buttonCol: hsl(0, 0%, 5%);
+    --buttonHov: hsl(0, 0%, 20%);
+    --textColTitle: hsl(0, 100%, 5%);
+    --textColAccent: hsl(0, 0%, 20%);
+    --borderCol: hsla(0, 0%, 95%, 0%);
+    --buttonTextCol: hsla(0,0%,95%);
+    --text: "Day Theme";
+
+}
+
+
+body {
+    display: grid;
+    background-color: var(--backgroundCol);
+    min-height: 100vh;
+    place-items: center;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    color: var(--textColTitle);
+    font-family: "segoe ui";
+    margin-top: 0em;
+    margin-bottom: 0em;
+    transition: color 0.5s ease;
+}
+h3 {
+    color: var(--textColAccent);
+    font-family: "segoe ui";
+    transition: color 0.5s ease;
+}
+.card {
+    display: flex;
+    background-image: var(--cardCol);
+    flex-direction: column;
+    max-width: 10em;
+    max-height: 10em;
+    padding: 2em;
+    border-radius: 1em;
+    border-width: 1px;
+    border-color: hsla(0, 0%, 95%, 30%);
+    border-style: solid;
+    transition: background-color 0.5s ease;
+    background-clip: padding-box;
+    overflow: hidden;
+}
+
+button {
+    background-color: var(--buttonCol);
+    border: none;
+    outline: none;
+    font-family: "segoe ui";
+    font-size: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    padding: 0.3em;
+    transition: background-color 0.2s ease;
+    color: var(--buttonTextCol)
+
+}
+button:hover {
+    background-color: var(--buttonHov);
+}
+h1::after {
+    content: var(--text)
+}
