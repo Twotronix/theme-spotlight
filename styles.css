@@ -64,6 +64,20 @@
     --type: "Type: Light"
 
 }
+.coffee {
+    --backgroundCol: hsl(44, 64%, 67%);
+    --cardCol: linear-gradient(180deg, hsl(34, 100%, 75%), hsl(41, 85%, 54%));
+    --buttonCol: hsl(0, 0%, 95%);
+    --buttonHov: hsl(0, 0%, 80%);
+    --textColTitle: hsl(0, 100%, 5%);
+    --textColAccent: hsl(0, 0%, 20%);
+    --borderCol: hsla(0, 0%, 95%, 0%);
+    --buttonTextCol: hsla(0,0%,5%);
+    --font-family: -apple-system, BlinkMacSystemFont, "segoe ui";
+    --text: "Coffee Theme";
+    --type: "Type: Light"
+
+}
 
 
 body {

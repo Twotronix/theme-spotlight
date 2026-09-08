@@ -5,7 +5,8 @@ const themes = [
     "light",
     "crimson",
     "night",
-    "day"
+    "day",
+    "coffee"
 ]
 const lastTheme = themes.length
 
