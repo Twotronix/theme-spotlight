@@ -6,6 +6,7 @@
     --textColTitle: hsl(0, 0%, 95%);
     --textColAccent: hsl(0, 0%, 80%);
     --borderCol: hsla(0, 0%, 95%, 30%);
+    --font-family: -apple-system, BlinkMacSystemFont, "segoe ui";
     --text: "Dark Theme"
 }
 
@@ -17,6 +18,7 @@
     --textColTitle: hsl(0, 0%, 5%);
     --textColAccent: hsl(0, 0%, 20%);
     --borderCol: hsla(0, 0%, 5%, 0%);
+    --font-family: -apple-system, BlinkMacSystemFont, "segoe ui";
     --text: "Light Theme"
 }
 .crimson {
@@ -27,6 +29,7 @@
     --textColTitle: hsl(0, 0%, 95%);
     --textColAccent: hsl(0, 0%, 80%);
     --borderCol: hsla(0, 0%, 95%, 30%);
+    --font-family: -apple-system, BlinkMacSystemFont, "segoe ui";
     --text: "Crimson Theme"
 }
 
@@ -39,6 +42,7 @@
     --textColAccent: hsl(0, 0%, 80%);
     --borderCol: hsla(0, 0%, 95%, 30%);
     --buttonTextCol: hsla(0,0%,5%);
+    --font-family: -apple-system, BlinkMacSystemFont, "segoe ui";
     --text: "Night Theme"
 }
 
@@ -51,6 +55,7 @@
     --textColAccent: hsl(0, 0%, 20%);
     --borderCol: hsla(0, 0%, 95%, 0%);
     --buttonTextCol: hsla(0,0%,95%);
+    --font-family: -apple-system, BlinkMacSystemFont, "segoe ui";
     --text: "Day Theme";
 
 }
