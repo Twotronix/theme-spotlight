@@ -36,7 +36,7 @@
 .night {
     --backgroundCol: hsl(261, 100%, 9%);
     --cardCol: linear-gradient(180deg, hsl(261, 100%, 8%), hsl(261, 100%, 13%));
-    --buttonCol: hsl(0, 0%, 95%);
+    --buttonCol: hsl(0, 0%, 100%);
     --buttonHov: hsl(0, 0%, 80%);
     --textColTitle: hsl(0, 100%, 95%);
     --textColAccent: hsl(0, 0%, 80%);
@@ -49,12 +49,12 @@
 .day {
     --backgroundCol: hsl(202, 100%, 34%);
     --cardCol: linear-gradient(180deg, hsl(202, 100%, 75%), hsl(202, 100%,57%));
-    --buttonCol: hsl(0, 0%, 5%);
-    --buttonHov: hsl(0, 0%, 20%);
+    --buttonCol: hsl(0, 0%, 95%);
+    --buttonHov: hsl(0, 0%, 80%);
     --textColTitle: hsl(0, 100%, 5%);
     --textColAccent: hsl(0, 0%, 20%);
     --borderCol: hsla(0, 0%, 95%, 0%);
-    --buttonTextCol: hsla(0,0%,95%);
+    --buttonTextCol: hsla(0,0%,5%);
     --font-family: -apple-system, BlinkMacSystemFont, "segoe ui";
     --text: "Day Theme";
 
